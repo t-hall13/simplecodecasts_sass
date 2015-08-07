@@ -1,3 +1,5 @@
+/* Users show page styles*/
+
 .job-title-icon {
     display: inline-block;
     width: 30px;
@@ -27,6 +29,13 @@
     border-color: #46b8da;
     
 }
+
+/* Users Index page styles*/
+.well.white-bg {
+    background-color: white;
+}
+
+/*Universal*/
 .profile-avatar img {
     -webkit-box-shadow: 4px 4px 5px 0px rgba(50, 50, 50, 0.36);
     -moz-box-shadow:    4px 4px 5px 0px rgba(50, 50, 50, 0.36);
