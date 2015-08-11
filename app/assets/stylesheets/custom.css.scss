@@ -8,3 +8,56 @@
     background-color: #fcf8e3;
     border-color: #faebcc;
 }
+
+
+.transparent {
+      padding-top:10px;
+      
+      background: -webkit-linear-gradient(90deg, #E6DADA 10%, #274046 90%); /* Chrome 10+, Saf5.1+ */
+      background:    -moz-linear-gradient(90deg, #E6DADA 10%, #274046 90%); /* FF3.6+ */
+      background:     -ms-linear-gradient(90deg, #E6DADA 10%, #274046 90%); /* IE10 */
+      background:      -o-linear-gradient(90deg, #E6DADA 10%, #274046 90%); /* Opera 11.10+ */
+      background:         linear-gradient(90deg, #E6DADA 10%, #274046 90%); /* W3C */
+            
+      opacity:.9;
+      border: 1px solid #cecece;
+      border-radius: 5px;
+      color: white;
+}
+
+body {
+    background-image: url("https://images.unsplash.com/photo-1422207258071-70754198c4a2?q=80&fm=jpg&s=fc69da8e14ff3b680b15bdd28687ee37"); 
+    background-repeat: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+}
+
+.grey {
+    color: #cecece;
+}
+
+.top {
+    
+    margin-top: 50px;
+}
+
+.bottom {
+    
+    margin-bottom: 120px;
+}
+
+.grey-text {
+    color: #cecece;
+}
+
+#about {
+    margin-top: 50px;
+    padding-bottom: 20px;
+}
+
+.space {
+    height: 300px;
+}

@@ -1,12 +1,12 @@
 <div class="row">
   <div class= "col-md-6 col-md-offset-3">
-    <h2>Edit <%= resource_name.to_s.humanize %></h2>
+    <h2 class= "grey-text">Edit <%= resource_name.to_s.humanize %></h2>
     
     <%= form_for(resource, as: resource_name, url: registration_path(resource_name), html: { method: :put }) do |f| %>
       <%= devise_error_messages! %>
     
       <div class="field form-group">
-        <%= f.label :email %><br />
+        <%= f.label :email, class: "grey-text" %><br />
         <%= f.email_field :email, autofocus: true, class: "form-control" %>
       </div>
     
@@ -15,17 +15,17 @@
       <% end %>
     
       <div class="field form-group">
-        <%= f.label :password %> <i>(leave blank if you don't want to change it)</i><br />
+        <%= f.label :password, class: "grey-text" %> <i class="grey-text">(leave blank if you don't want to change it)</i><br />
         <%= f.password_field :password, autocomplete: "off", class: "form-control" %>
       </div>
     
       <div class="field form-group">
-        <%= f.label :password_confirmation %><br />
+        <%= f.label :password_confirmation, class: "grey-text" %><br />
         <%= f.password_field :password_confirmation, autocomplete: "off", class: "form-control" %>
       </div>
     
       <div class="field form-group">
-        <%= f.label :current_password %> <i>(we need your current password to confirm your changes)</i><br />
+        <%= f.label :current_password, class: "grey-text" %> <i class= "grey-text">(we need your current password to confirm your changes)</i><br />
         <%= f.password_field :current_password, autocomplete: "off", class: "form-control" %>
       </div>
     
@@ -34,9 +34,9 @@
       </div>
     <% end %>
     
-    <h3>Cancel my account</h3>
+    <h3 class= "grey-text">Cancel my account</h3>
     
-    <p>Unhappy? <%= button_to "Cancel my account", registration_path(resource_name), data: { confirm: "Are you sure?" }, method: :delete, class: "btn btn-danger" %></p>
+    <p class= "grey-text">Unhappy? <%= button_to "Cancel my account", registration_path(resource_name), data: { confirm: "Are you sure?" }, method: :delete, class: "btn btn-danger" %></p>
     
     <%= link_to "Back", :back %>
   </div>
